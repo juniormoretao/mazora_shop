@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0; 
+
+}
+body{
+  position: relative;
+  height: 900px;
+  width: 100%;
+
+}
+
+
+.navbar{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  box-sizing: border-box;
+  width: 100%;
+  background:linear-gradient(to bottom,#2a73ac,#a6c4ca00);
+}
+
+.navbar ul{
+  top: 0;
+  height: 100%;
+  width: auto;
+  margin-left: 480px;
+  text-align: center;
+  
+}
+
+.navbar ul li{
+  list-style:none;
+  margin: 50px 0px;
+  
+}
+
+.navbar ul li a{
+  text-transform: uppercase;
+  color: blanchedalmond;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 40px;
+  border-radius: 3px;
+  height: auto;
+  width: auto;
+  
+}
+
+.navbar a:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(64, 105, 167, 0.418);
+  transition: 1.5s;
+
+  
+  
+}
+
+.navbar ul li a:nth-last-child(1){
+  color:rgb(5, 5, 5);
+
+}
+
+
+
+
+h1{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  background:linear-gradient(to left,#2a597e,#000000);
+  top: 30px;
+  left: 0px;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 100px 100px;
+  z-index: 1;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.container #divBusca{
+  position: absolute;
+  top: 50px;
+  left: 210px;
+  color: antiquewhite;
+  
+
+}
+
+.container #divBusca #txtBusca{
+  width: 250px;
+  height: 30px;
+  border:  0 none;
+  outline: 0;
+  background-color: rgba(54, 145, 190, 0.514);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+
+  
+}
+
+#divBusca #btnBusca{
+  color: azure;
+  background-color: #2a74ac83;
+  padding: 6px 10px;
+  border: 0 none;
+  outline: 0;
+  border-radius: 10px;
+}
+
+img{
+  width:100%;
+  height:auto;
+  opacity: 5;
+}
+
+
+
+
+
+
+
